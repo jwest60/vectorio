@@ -19,4 +19,5 @@ if instance_exists(o_ship)
 		draw_text(display_get_gui_width() - 220, 30, "Scans Remaining: " + string(scans_remaining));
 	else
 		draw_text_color(display_get_gui_width() - 220, 30, "Scans Remaining: " + string(scans_remaining), c_red, c_red, c_red, c_red, image_blend);
+	draw_text_color(display_get_gui_width() - 150, 55, current_level, c_orange, c_orange, c_orange, c_orange, image_alpha);
 }

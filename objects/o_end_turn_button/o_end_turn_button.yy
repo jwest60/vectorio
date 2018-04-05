@@ -5,22 +5,12 @@
     "name": "o_end_turn_button",
     "eventList": [
         {
-            "id": "07251e30-1d46-449b-9c6c-06d909d8495a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "c744bf47-5989-4a6d-9c83-428cddd4ef68"
-        },
-        {
             "id": "bde4fcbb-4ea8-47f8-9508-e7893e4f4b29",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 64,
             "eventtype": 8,
             "m_owner": "c744bf47-5989-4a6d-9c83-428cddd4ef68"
         },
@@ -52,6 +42,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 53,
             "eventtype": 6,
+            "m_owner": "c744bf47-5989-4a6d-9c83-428cddd4ef68"
+        },
+        {
+            "id": "e0e722ae-93c4-47d7-90c3-ed09ef6d0394",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "c744bf47-5989-4a6d-9c83-428cddd4ef68"
         }
     ],

@@ -7,7 +7,8 @@
         "6250ed14-99a7-4723-ab5d-5e985166d88e",
         "96cd67bd-70ce-454b-b63d-8ca0256988fb",
         "f333d370-bb6d-4b0e-bca1-64c55692487f",
-        "59753281-ac26-42a3-a88c-1815b880eb56"
+        "59753281-ac26-42a3-a88c-1815b880eb56",
+        "d587c872-fe31-4563-ba6e-c32d0aa11938"
     ],
     "filterType": "GMSprite",
     "folderName": "text_field",

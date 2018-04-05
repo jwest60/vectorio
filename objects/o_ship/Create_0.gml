@@ -6,8 +6,6 @@ sprite_angle = 0;
 image_index = 0;
 image_speed = 0;
 
-action_points = 2;
-
 scan_x = 0;
 scan_y = 0;
 

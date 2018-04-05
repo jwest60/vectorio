@@ -7,6 +7,7 @@ if o_end_turn_button.alarm[0] < 0
 	if keyboard_check_pressed(vk_space) && o_game.scans_remaining > 0
 	{
 		audio_play_sound(sound_scan, 1, false);
+		scanned = false;
 		scanning = true;
 	}
 }
@@ -51,10 +52,11 @@ if o_end_turn_button.alarm[0] > 0
 		room_goto(game_over);
 	}
 
-	if place_meeting(x, y, o_objective_zone) && velocity_x == 0 && velocity_y == 0 && instance_nearest(x, y, o_target) == noone
+	if place_meeting(x, y, o_objective_zone) && velocity_x == 0 && velocity_y == 0 && instance_nearest(x, y, o_target) == noone && instance_nearest(x, y, o_tutorial) == noone
 	{
 		audio_play_sound(sound_level_warp, 1, false);	
 		keyboard_string = "";
+		if o_game.current_level = "level_secret" room_goto(main_menu);
 		room_goto_next();
 	}
 }

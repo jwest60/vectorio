@@ -11,5 +11,5 @@ visible = true;
 if o_game.turns_remaining == 0
 {
 	global.room_from = room;
-	room_goto(game_over);
+	if instance_nearest(x, y, o_tutorial) == noone room_goto(game_over);
 }
