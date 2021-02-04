@@ -1,6 +1,6 @@
 # Overview
 
-Vectorio is an educational web app designed to present vectorized motion in a fun and practical way. The idea revolves around moving a spaceship solely through manipulation of its x- and y-velocity components in order to accomplish a variety of objectives.
+Vectorio is an educational game designed to present vectorized motion in a fun and practical way. The idea revolves around moving a spaceship solely through manipulation of its x- and y-velocity components in order to accomplish a variety of objectives.
 
 Vectorio was developed in GML. Vectorio was designed as the final project for EF152.
 
